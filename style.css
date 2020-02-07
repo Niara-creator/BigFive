@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.img {
+  width: 700px;
+  height: 700px;
+  background-image: url('https://cdn.shopify.com/s/files/1/2243/0561/products/C4501_-_CALIFORNIA_MAP_CARD_1024x1024.png');
+  background-size: 700px 700px;
+  position: relative;
+  border-color: black;
+  border-style:solid;
+  margin: 10px;
+}
+.button {
+  position: absolute;
+  text-align: center;
+  color: black;
+  bottom: 329px;
+  left: 286px;
+  background-color:white;
+  width: 111px;
+  height: 36px;
+  font-size: 20px;
+}
+.laButton{
+  position: absolute;
+  text-align: center;
+  color: black;
+  bottom: 105px;
+  left: 240px;
+  background-color:white;
+  width: 111px;
+  height: 36px;
+  font-size: 17px;
+  
+}
+.explaining{
+  background-color:white;
+  border-color:black;
+  border-style:solid;
+  padding:3px;
+}
+
+body{
+  font-family: verdana;
+}
+.aboutButton{
+  border-color:blue;
+  margin:1px;
+  background-color:white;
+  height:200px;
+
+
+}
+.boxOne{
+  display: flex;
+justify-content: space-around;
+}
+h1{ 
+  text-align: center
+
+}

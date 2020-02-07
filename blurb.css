@@ -1,0 +1,34 @@
+h1, p{
+  text-align: center;
+}
+.flex-grid{
+  text-align: center;
+  display: flex;
+  align-items: left;
+  flex: 1 1 auto;
+
+}
+.section{
+  flex: 1;
+  overflow: scroll;
+  border-radius: 25px;
+}
+#art{
+  background-color: #f5b095;
+}
+#music{
+  background-color: #cf3c02;
+}
+#culture{
+  background-color: #e66a39;
+}
+#back{
+  height: 50px;
+}
+img, iframe{
+  max-width: 90%;
+    margin: 1%;
+}
+.header{
+  color: #302005;
+}

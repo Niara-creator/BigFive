@@ -5,9 +5,10 @@ var data = {
     "https://news.ucsc.edu/2017/08/images/ceasefire_4701.jpg"
     ],
     article:{
-    title:["Beyond Bullet","Hundreds Rally in SF on Gun Violence"],
+    title:["Beyond Bullet","Hundreds Rally in SF on Gun Violence", "S.F. rally demanding action on gun violence one of dozens nationwide"],
     links:[
-      "https://www.ucsf.edu/news/2018/12/412651/beyond-bullet","https://www.nbcbayarea.com/news/local/hundreds-rally-in-san-francisco-demanding-action-on-gun-violence-in-one-of-dozens-nationwide/94165"
+      "https://www.ucsf.edu/news/2018/12/412651/beyond-bullet","https://www.nbcbayarea.com/news/local/hundreds-rally-in-san-francisco-demanding-action-on-gun-violence-in-one-of-dozens-nationwide/94165",
+      "https://www.mercurynews.com/2019/08/17/s-f-rally-demanding-action-on-gun-violence-one-of-dozens-nationwide"
       ]
     },
     music:[
@@ -32,9 +33,12 @@ var data = {
 };
 
 
-$(".aboutText").hide();
+$(".explaining").hide();
 $(".aboutButton").click(function(){
-  $(".aboutText").toggle();
+  $(".explaining").toggle();
+});
+$(".xButton").click(function(){
+  $(".explaining").hide();
 });
 
 
